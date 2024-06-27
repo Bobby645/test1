@@ -1,6 +1,6 @@
-#import open3d as o3d
+import open3d as o3d
 import numpy as np
-
+# 加载
 def load_normals_from_txt(file_path):
     """
     从文本文件中加载点云及其对应的法向量
